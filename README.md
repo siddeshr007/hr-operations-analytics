@@ -24,13 +24,16 @@ The dataset is the well-known **IBM HR Analytics Employee Attrition** dataset (p
 HR Operations analytics/
 ├── data/
 │   └── hr_attrition_raw.csv                                                                                # Original HR attrition dataset
+│
 ├── excel/
 │   ├── hr_attrition.xlsx                                                                                   # Working file with pivots & helper columns
+│   │
 │   └── hr_attrition_dashboard.xlsx                                                                         # Final dashboard (clean presentation)
 ├── docs/
 │   └── ba_report.md                                                                                        # Business Analyst style report
+│
 └── sql/
-|    └── hr_attrition_mysql.sql                                                                             # MySQL queries used for analysis
+     └── hr_attrition_mysql.sql                                                                             # MySQL queries used for analysis
 ```
 
 ---
