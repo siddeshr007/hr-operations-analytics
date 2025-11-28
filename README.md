@@ -41,6 +41,7 @@ HR Operations analytics/
 ---
 
 📊** Excel Analysis & Dashboard**
+
 Steps in Excel:
 * Loaded the raw CSV and saved it as "hr_attrition.xlsx".
 * Created helper fields:
@@ -69,10 +70,11 @@ To view the dashboard, open "excel/hr_attrition_dashboard.xlsx" and go to the Da
 ---
 
 🧮 **SQL / MySQL Analysis**
+
 The file "sql/hr_attrition_mysql.sql" contains the main queries used to reproduce the Excel pivots in MySQL.
 Key queries include:
 
-* Attrition rate by department
+* Attrition rate by department  
         SELECT 
             Department,
             SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) AS attrition_count,
