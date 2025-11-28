@@ -40,7 +40,7 @@ HR Operations analytics/
 
 ---
 
-📊** Excel Analysis & Dashboard**
+## 📊 Excel Analysis & Dashboard
 
 Steps in Excel:
 * Loaded the raw CSV and saved it as "hr_attrition.xlsx".
@@ -69,7 +69,7 @@ To view the dashboard, open "excel/hr_attrition_dashboard.xlsx" and go to the Da
 
 ---
 
-🧮 **SQL / MySQL Analysis**
+## 🧮 SQL / MySQL Analysis
 
 The file "sql/hr_attrition_mysql.sql" contains the main queries used to reproduce the Excel pivots in MySQL.
 Key queries include:
@@ -122,9 +122,9 @@ Key queries include:
 
 ---
 
-🔍 **Key Insights (from dashboard & SQL)**
+## 🔍 Key Insights (from dashboard & SQL)
 Some of the main findings (using this dataset):
-    * Overall attrition is around 16%.
+    * Overall attrition is around 16
     * Sales and HR departments have higher attrition rates than R&D.
     * Sales Representatives and Laboratory Technicians are among the highest-risk roles.
     * Attrition is highest for employees under 25 and within their first 0–3 years at the company.
@@ -133,7 +133,7 @@ These insights feed into the recommendations documented in docs/ba_report.md.
 
 ---
 
-**🧾 BA-Style Report**
+## 🧾 BA-Style Report
 The file "docs/ba_report.md" summarizes the project like a Business Analyst would:
 * Problem statement
 * Methods (how attrition rate was calculated, what segments were analyzed)
@@ -145,7 +145,7 @@ The file "docs/ba_report.md" summarizes the project like a Business Analyst woul
 
 ---
 
-🛠️ Tools & Skills Used
+## 🛠️ Tools & Skills Used
 * Excel
     - PivotTables
     - PivotCharts
@@ -162,7 +162,7 @@ The file "docs/ba_report.md" summarizes the project like a Business Analyst woul
 
 ---
 
-🚀 How to Reproduce
+## 🚀 How to Reproduce
 * Clone the repo:
         git clone https://github.com/siddeshr007/hr-operations-analytics.git
 * Open "excel/hr_attrition_dashboard.xlsx" in Excel to explore the dashboard.
@@ -172,7 +172,7 @@ The file "docs/ba_report.md" summarizes the project like a Business Analyst woul
 
 ---
 
-✍️ Author
+## ✍️ Author
 
 Sai Siddesh Reddy Bynigeri
 
