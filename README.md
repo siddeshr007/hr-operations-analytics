@@ -19,24 +19,18 @@ The dataset is the well-known **IBM HR Analytics Employee Attrition** dataset (p
 ---
 
 ## 📂 Project Structure
-
+````` ```
 HR Operations analytics/
-|
 ├── data/
-|
 │   └── hr_attrition_raw.csv          # Original HR attrition dataset
-|
 ├── excel/
-|
 │   ├── hr_attrition.xlsx             # Working file with pivots & helper columns
-|
 │   └── hr_attrition_dashboard.xlsx   # Final dashboard (clean presentation)
-|
 ├── docs/
-|
 │   └── ba_report.md                  # Business Analyst style report
 └── sql/
     └── hr_attrition_mysql.sql        # MySQL queries used for analysis
+````` ```
 
 ---
 
@@ -65,6 +59,7 @@ Steps in Excel:
         - Department
         - Gender
         - Marital Status
+      
 To view the dashboard, open "excel/hr_attrition_dashboard.xlsx" and go to the Dashboard sheet.
 
 ---
@@ -74,7 +69,8 @@ To view the dashboard, open "excel/hr_attrition_dashboard.xlsx" and go to the Da
 The file "sql/hr_attrition_mysql.sql" contains the main queries used to reproduce the Excel pivots in MySQL.
 Key queries include:
 
-* Attrition rate by department  
+* Attrition rate by department
+  
         SELECT 
             Department,
             SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) AS attrition_count,
@@ -85,6 +81,7 @@ Key queries include:
         ORDER BY attrition_rate DESC;
 
 * Attrition rate by job role
+  
         SELECT 
             JobRole,
             SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) AS attrition_count,
@@ -95,6 +92,7 @@ Key queries include:
         ORDER BY attrition_rate DESC;
 
 * Attrition rate by age band (same logic as Excel AgeBand field)
+
         SELECT
             CASE 
                 WHEN Age < 25 THEN '<25'
@@ -111,6 +109,7 @@ Key queries include:
         ORDER BY attrition_rate DESC;
 
 * Attrition rate by years at the company
+  
         SELECT
             YearsAtCompany,
             SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) AS attrition_count,
