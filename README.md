@@ -1,4 +1,4 @@
-**HR Operations / Attrition Analytics**
+## HR Operations / Attrition Analytics
 
 This project analyzes employee attrition (turnover) for an HR/Operations team using:
 
@@ -130,6 +130,7 @@ Some of the main findings (using this dataset):
 * Sales Representatives and Laboratory Technicians are among the highest-risk roles.
 * Attrition is highest for employees under 25 and within their first 0–3 years at the company.
 * Senior roles (Directors, Managers) have relatively low attrition.
+
 These insights feed into the recommendations documented in docs/ba_report.md.
 
 ---
