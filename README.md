@@ -73,6 +73,8 @@ Steps in Excel:
       
 To view the dashboard, open "excel/hr_attrition_dashboard.xlsx" and go to the Dashboard sheet.
 
+![HR Attrition Dashboard](images/dashboard.png)
+
 ---
 
 ## 🧮 SQL / MySQL Analysis
