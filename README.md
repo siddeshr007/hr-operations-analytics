@@ -123,12 +123,13 @@ Key queries include:
 ---
 
 ## 🔍 Key Insights (from dashboard & SQL)
+
 Some of the main findings (using this dataset):
-    * Overall attrition is around 16
-    * Sales and HR departments have higher attrition rates than R&D.
-    * Sales Representatives and Laboratory Technicians are among the highest-risk roles.
-    * Attrition is highest for employees under 25 and within their first 0–3 years at the company.
-    * Senior roles (Directors, Managers) have relatively low attrition.
+* Overall attrition is around 16
+* Sales and HR departments have higher attrition rates than R&D.
+* Sales Representatives and Laboratory Technicians are among the highest-risk roles.
+* Attrition is highest for employees under 25 and within their first 0–3 years at the company.
+* Senior roles (Directors, Managers) have relatively low attrition.
 These insights feed into the recommendations documented in docs/ba_report.md.
 
 ---
