@@ -20,6 +20,7 @@ The dataset is the well-known **IBM HR Analytics Employee Attrition** dataset (p
 
 ## 📂 Project Structure
 ````` ```
+
 HR Operations analytics/
 
 ├── data/
@@ -38,7 +39,7 @@ HR Operations analytics/
 
 └── sql/
 
-    └── hr_attrition_mysql.sql                     # MySQL queries used for analysis
+|    └── hr_attrition_mysql.sql                     # MySQL queries used for analysis
 
 ````` ```
 
