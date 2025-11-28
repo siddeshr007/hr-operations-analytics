@@ -1,6 +1,7 @@
 **HR Operations / Attrition Analytics**
 
 This project analyzes employee attrition (turnover) for an HR/Operations team using:
+
     - **Excel** for KPIs, pivot tables, and an interactive dashboard  
     - **MySQL** for SQL-based analysis  
     - **BA-style documentation** of findings and recommendations  
